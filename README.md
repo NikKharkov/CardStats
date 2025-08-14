@@ -7,9 +7,9 @@
 ### 📅 Game Calendar
 - **Game Journal**: Track date, game name (poker, bridge, rummy, etc.), participants, and results
 - **Color-coded Days**:
-    - 🟢 Green: More successful sessions
-    - 🔴 Red: More losing sessions
-    - ⚫ Black: Inactive days
+  - 🟢 Green: More successful sessions
+  - 🔴 Red: More losing sessions
+  - ⚫ Black: Inactive days
 - **Detailed Day View**: Tap any day to see game results and participants
 
 ### 📊 Player Statistics
@@ -39,37 +39,9 @@
 
 ## Screenshots 📱
 
-| **Main Menu**                      |
-|------------------------------------|
-| ![Main Menu](screenshots/menu.png) |
-
-| **Add Game**                          |
-|---------------------------------------|
-| ![Add Game](screenshots/add_game.png) |
-
-| **Calendar View**                     |
-|---------------------------------------|
-| ![Calendar](screenshots/calendar.png) |
-
-| **Games Library**               |
-|---------------------------------|
-| ![Games](screenshots/games.png) |
-
-| **Statistics**                            |
-|-------------------------------------------|
-| ![Statistics](screenshots/statistics.png) |
-
-| **Add Tournament**                                |
-|---------------------------------------------------|
-| ![Add Tournament](screenshots/add_tournament.png) |
-
-| **Tournaments**                             |
-|---------------------------------------------|
-| ![Tournaments](screenshots/tournaments.png) |
-
-| **Settings**                          |
-|---------------------------------------|
-| ![Settings](screenshots/settings.png) |
+| Main Menu                          | Add Game                              | Calendar View                         | Games Library                   | Statistics                                | Add Tournament                                    | Tournaments                                 | Settings                              |
+|------------------------------------|---------------------------------------|---------------------------------------|---------------------------------|-------------------------------------------|---------------------------------------------------|---------------------------------------------|---------------------------------------|
+| ![Main Menu](screenshots/menu.png) | ![Add Game](screenshots/add_game.png) | ![Calendar](screenshots/calendar.png) | ![Games](screenshots/games.png) | ![Statistics](screenshots/statistics.png) | ![Add Tournament](screenshots/add_tournament.png) | ![Tournaments](screenshots/tournaments.png) | ![Settings](screenshots/settings.png) |
 
 ## App Screens Overview 🎯
 
@@ -102,21 +74,18 @@
 
 - **Language**: Kotlin
 - **UI Framework**: Jetpack Compose
-- **Architecture**: MVVM with Compose Navigation
 - **Database**: Room Database
 - **Dependency Injection**: Koin
 - **Data Storage**: DataStore Preferences
-- **Date/Time**: Kotlinx DateTime
 - **Charts**: MPAndroidChart
-- **UI Components**: Material 3
-- **Build Tools**: Kotlin Symbol Processing (KSP)
 
-### Key Technologies
-- Jetpack Compose
-- Room for local DB
+### Key Dependencies
+- Jetpack Compose BOM for UI consistency
+- Room for local data persistence
+- Navigation Compose for seamless screen transitions
 - DateTime Wheel Picker for intuitive date selection
 - DataStore for lightweight preference storage
-- 
+
 ## License 📄
 
 This project is open source and available under the [MIT License](LICENSE).
